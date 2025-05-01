@@ -1,3 +1,9 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 :root {
 	/* Light theme */
 	--bg-color: #ffffff;
@@ -8,6 +14,11 @@
 	/* Fonts Styles */
 	--base-font-size: 62.5%;
 	--base-font-family: 'Onest', sans-serif;
+
+	--up-arrow-color: #05a615;
+	--down-arrow-color: #ff0000;
+	--gray-2-color: #b3b0b0;
+	--blue-primary: #1f75fe;
 }
 
 /* Dark theme overrides */
@@ -26,4 +37,9 @@ body {
 		color 0.3s ease;
 	font-family: var(--base-font-family);
 	font-size: var(--base-font-size);
+
+	/* max-width: 2000px;
+	margin: 0 auto; */
+
+	/* background-color: #121212; */
 }
