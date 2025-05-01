@@ -1,0 +1,29 @@
+:root {
+	/* Light theme */
+	--bg-color: #ffffff;
+	--text-color: #222222;
+	--primary-color: #4f46e5;
+	--card-bg: #f9fafb;
+
+	/* Fonts Styles */
+	--base-font-size: 62.5%;
+	--base-font-family: 'Onest', sans-serif;
+}
+
+/* Dark theme overrides */
+:root.dark {
+	--bg-color: #121212;
+	--text-color: #f5f5f5;
+	--primary-color: #818cf8;
+	--card-bg: #1e1e1e;
+}
+
+body {
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	transition:
+		background-color 0.3s ease,
+		color 0.3s ease;
+	font-family: var(--base-font-family);
+	font-size: var(--base-font-size);
+}
